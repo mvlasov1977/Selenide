@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57733b3-150f-47ad-a4ac-a310f86bc98b" name="Changes" comment="add JDK20.0">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenideTests.java" afterDir="false" />
+    <list default="true" id="f57733b3-150f-47ad-a4ac-a310f86bc98b" name="Changes" comment="add Configuration options">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DownloadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/UploadPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelenideTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelenideTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,36 @@
     "settings.editor.selected.configurable": "preferences.pathVariables"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SelenideTests.downloadTest">
+    <configuration name="SelenideTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTests.downloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="METHOD_NAME" value="downloadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelenideTests.dynamicTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="METHOD_NAME" value="dynamicTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelenideTests.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelenideTests.uploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SelenideTests" />
+      <option name="METHOD_NAME" value="uploadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelenideTests.downloadTest" />
+        <item itemvalue="JUnit.SelenideTests" />
+        <item itemvalue="JUnit.SelenideTests.uploadTest" />
+        <item itemvalue="JUnit.SelenideTests.dynamicTest1" />
         <item itemvalue="JUnit.SelenideTests.start" />
       </list>
     </recent_temporary>
@@ -91,13 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694258605423</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Configuration options">
+      <created>1694260855258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694260855258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make environment" />
     <MESSAGE value="add JDK20.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="add JDK20.0" />
+    <MESSAGE value="add Configuration options" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Configuration options" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
