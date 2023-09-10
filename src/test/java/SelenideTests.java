@@ -1,7 +1,5 @@
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.DownloadOptions;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;
 import pages.DownloadPage;
 import pages.DynamicPage_1;
