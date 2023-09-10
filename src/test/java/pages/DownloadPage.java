@@ -12,7 +12,7 @@ public class DownloadPage {
     private final Long waiter = 5000L; // milli`seconds
     private final String extendUrl = "/download";
     private final String pageName = "File Downloader";
-    private final String downloadPath = "build/downloads/myDownloads";
+    private final String downloadPath = "src/test/myDownloads";
     private SelenideElement pageSignX = $x("//h3");
     private String fileListElement = "//*[@class=\"example\"]/a";
     public DownloadPage(String bUrl){
@@ -21,7 +21,6 @@ public class DownloadPage {
         Configuration.timeout = waiter;
         Configuration.downloadsFolder = downloadPath;
         open(extendUrl);
-
     }
     public String getPageName() {
         return pageName;

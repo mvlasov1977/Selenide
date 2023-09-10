@@ -13,13 +13,14 @@ import java.io.FileNotFoundException;
 public class SelenideTests {
     private final String baseUrl = "https://the-internet.herokuapp.com";
     private final String downloadFileName = "some-file.txt";
+    private final String uploadFileName = "3September.jpg";
     @Test
     public void downloadTest() throws FileNotFoundException {
         DownloadPage myPage = new DownloadPage(baseUrl);
         myPage.getPageSign().shouldBe(Condition.exactText(myPage.getPageName()));
 
         boolean isFileFound = false;
-        for(int item=1;item<=myPage.getFileListElementsCount();item++){
+        for(int item=0;item<myPage.getFileListElementsCount();item++){
             if (myPage.getFileListElementName(item).equals(downloadFileName)) {
                 myPage.getFileListElement(item).download();
                 isFileFound = true;
@@ -33,6 +34,9 @@ public class SelenideTests {
     @Test
     public void uploadTest(){
         UploadPage myPage = new UploadPage(baseUrl);
+        myPage.getPageSign().shouldBe(Condition.exactText(myPage.getPageName()));
+        myPage.setUploadFile(uploadFileName).click();
+        myPage.getPageCompleteSign().shouldBe(Condition.exactText(myPage.getPageCompleteName()));
     }
     @Test
     public void dynamicTest1(){
