@@ -17,7 +17,7 @@ public class DownloadPage {
     private String fileListElement = "//*[@class=\"example\"]/a";
     public DownloadPage(String bUrl){
         Configuration.baseUrl = bUrl;
-        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = false;
         Configuration.timeout = waiter;
         Configuration.downloadsFolder = downloadPath;
         open(extendUrl);

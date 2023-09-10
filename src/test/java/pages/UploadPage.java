@@ -19,7 +19,7 @@ public class UploadPage extends Selenide {
 
     public UploadPage(String bUrl){
         Configuration.baseUrl = bUrl;
-        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = false;
         Configuration.timeout = waiter;
         Configuration.downloadsFolder = uploadPath;
         open(extendUrl);

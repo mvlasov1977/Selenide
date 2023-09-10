@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f57733b3-150f-47ad-a4ac-a310f86bc98b" name="Changes" comment="add DownloadPage test">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    <list default="true" id="f57733b3-150f-47ad-a4ac-a310f86bc98b" name="Changes" comment="add UploadPage test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SelenideTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelenideTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/DownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DynamicPage_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/UploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/UploadPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +60,7 @@
       <recent name="C:\Install\QAAuto\Projects\20\Selenide\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelenideTests.uploadTest">
+  <component name="RunManager" selected="JUnit.SelenideTests">
     <configuration name="SelenideTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide" />
       <option name="PACKAGE_NAME" value="" />
@@ -89,11 +90,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTests.start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideTests.dynamicTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SelenideTests" />
-      <option name="METHOD_NAME" value="start" />
+      <option name="METHOD_NAME" value="dynamicTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelenideTests" />
+        <item itemvalue="JUnit.SelenideTests.dynamicTest2" />
+        <item itemvalue="JUnit.SelenideTests.dynamicTest1" />
         <item itemvalue="JUnit.SelenideTests.uploadTest" />
         <item itemvalue="JUnit.SelenideTests.downloadTest" />
-        <item itemvalue="JUnit.SelenideTests" />
-        <item itemvalue="JUnit.SelenideTests.dynamicTest1" />
-        <item itemvalue="JUnit.SelenideTests.start" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694298616429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add UploadPage test">
+      <created>1694325139346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694325139346</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,7 +172,8 @@
     <MESSAGE value="add JDK20.0" />
     <MESSAGE value="add Configuration options" />
     <MESSAGE value="add DownloadPage test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DownloadPage test" />
+    <MESSAGE value="add UploadPage test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add UploadPage test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
